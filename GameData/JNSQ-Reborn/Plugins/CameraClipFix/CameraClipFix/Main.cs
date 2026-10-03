@@ -101,7 +101,7 @@ namespace CameraClipFix
 
                 if (nearClip > 0)
                 {
-                    Debug.Log($"[CameraClipFix] Camera {cam.name} far clip was set to {cam.nearClipPlane}, changing to {nearClip}");
+                    Debug.Log($"[CameraClipFix] Camera {cam.name} near clip was set to {cam.nearClipPlane}, changing to {nearClip}");
                     cam.nearClipPlane = nearClip;
                 }
 
